@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.node {
+    width: 25px;
+    height: 25px;
+    /* outline: 1px solid rgb(175, 216, 248); */
+    outline: 1px solid rgba(6, 95, 70, 0.5);
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.node-visited {
+    background-color: rgba(249,250,222);
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        background-color: rgba(218, 78, 2);
+    }
+    to {
+        background-color:rgba(229,236,222);
+    }
+}
+
+.shortest-path {
+    background-color: #da4e02;
+}
+
+
+
+
+.font-none{
+    font-size: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
