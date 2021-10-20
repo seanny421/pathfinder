@@ -11,7 +11,7 @@ export default function Grid(){
     const [START_NODE_COL, setSTARTNODECOL] = useState(15);
     const [FINISH_NODE_ROW, setFINISHNODEROW] = useState(10);
     const [FINISH_NODE_COL, setFINISHNODECOL] = useState(35);
-    const [algorithms, setAlgorithms] = useState(["Dijkstras"]);
+    const [algorithms, setAlgorithms] = useState(["Dijkstras", "More in Development"]);
     const [currAlgorithm, setCurrentAlgorithm] = useState("");
 
     const [movingStart, setMovingStart] = useState(false);

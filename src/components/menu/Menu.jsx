@@ -41,7 +41,7 @@ export default function Menu({resetGrid, visualiseDijkstras, algorithms, setCurr
                     </div>
                     <div>
                         <button onClick={visualiseDijkstras} className="bg-green-800 rounded p-2 m-2 text-white">Visualize Algorithm</button>
-                        <button onClick={resetGrid} className="bg-green-800 rounded p-2 m-2 text-white">Reset Grid</button>
+                        {/* <button onClick={resetGrid} className="bg-green-800 rounded p-2 m-2 text-white">Reset Grid</button> */}
                     </div>
                 </div>
             </div>
